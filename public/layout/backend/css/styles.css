@@ -1,0 +1,93 @@
+header{
+	height: 70px;
+	line-height: 70px;
+	background: #113;
+	width: 100%;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 99;
+}
+.headerLogo{
+	display: inline-block;
+}
+.headerLogo a{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-decoration: none;
+}
+.headerUser{
+	float: right;
+
+}
+.headerUser a{
+	color: #fff;
+	text-decoration: none;
+}
+.bodyMain{
+	min-height: 90%;
+	display: block;
+	margin-top: 70px;
+}
+.row{
+	height: 100%;
+}
+.navMenu{
+	background: #eee;
+	padding-top: 20px;
+	height: 100%;
+	position: fixed;
+	z-index: 99;
+}
+.navMenu ul li{
+	text-align: center;
+}
+.navMenu ul li ul li{
+	display: none;
+}
+.navMenu ul li:hover ul li{
+	display: block;
+}
+.btnAdd{
+	margin:0 30px;
+}
+.main{
+	background: ;
+	display: block;
+	margin-left: 18%;
+}
+.mainHead{
+	margin-top: 10px;
+}
+.mainTitle{
+	margin: 30px 10px;
+}
+
+.tableContent{
+	max-height: 150px;
+	overflow: auto;
+}
+
+.orderTable tr td a{
+	text-decoration: none;
+	color: #000;
+}
+.orderDetailTitle{
+	font-weight: bold;
+
+}
+.tableOption{
+	width: 200px;
+}
+@media screen and (max-width: 900px) {
+    .reponsive900 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .reponsive600 {
+        display: none;
+    }
+}

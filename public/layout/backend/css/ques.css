@@ -1,0 +1,63 @@
+header{
+	height: 70px;
+	line-height: 70px;
+	background: #113;
+	width: 100%;
+}
+.headerLogo{
+	display: inline-block;
+}
+.headerLogo a{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-decoration: none;
+}
+.headerUser{
+	float: right;
+
+}
+.headerUser a{
+	color: #fff;
+	text-decoration: none;
+}
+.bodyMain{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.row{
+	height: 100%;
+}
+.navMenu{
+	background: #eee;
+	padding-top: 20px;
+	height: 100%;
+}
+.navMenu ul li{
+	text-align: center;
+}
+.navMenu ul li ul li{
+	display: none;
+}
+.navMenu ul li:hover ul li{
+	display: block;
+}
+.btnAdd{
+	margin:0 30px;
+}
+.main{
+	background: ;
+	display: block;
+	
+}
+.mainHead{
+	margin-top: 10px;
+}
+.mainListQues{
+	font-weight: bold;
+}
+.mainListOption{
+	width: 130px;
+}
